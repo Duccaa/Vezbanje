@@ -117,17 +117,19 @@ console.log(br);
 // Napisati program da nađe proizvod prirodnih brojeva od a do b i koliko ih ima.
 let proizvod = 1;
 let a = 3;
+const m = a;
 let b = 7;
 let count = 0;
 for(; a <= b; a++) {
     proizvod *= a;
     count++;
 }
-console.log(`U intervalu od ${a} do ${b} ima ${count} brojeva, a njihov proizvod je: ${proizvod}`);
+console.log(`U intervalu od ${m} do ${b} ima ${count} brojeva, a njihov proizvod je: ${proizvod}`);
 
 // Napisati program da nađe proizvod prirodnih brojeva od a do b djeljivih sa l i koliko ih ima.
 let pr = 1;
 let a = 2;
+const m = a;
 let b = 6;
 let l = 2;
 let br = 0;
@@ -137,11 +139,12 @@ for(; a <= b; a++) {
         br++;
     }
 }
-console.log(`U intervalu od ${a} do ${b} ima ${br} brojeva deljivih sa ${l}, a njihov proizvod iznosi: ${pr}.`)
+console.log(`U intervalu od ${m} do ${b} ima ${br} brojeva deljivih sa ${l}, a njihov proizvod iznosi: ${pr}.`)
 */
 // Naći sumu brojeva u intervalu od a do b djeljivih sa l i koliko ih ima.
 let suma = 0;
 let a = 1;
+const m = a;
 let b = 11;
 let l = 2;
 let br = 0;
@@ -151,4 +154,4 @@ for(; a <= b; a++) {
         br++;
     }
 }
-console.log(`U intervalu od ${a} do ${b} ima ${br} brojeva deljivih sa ${l}, a njihov zbir iznosi: ${br}.`)
+console.log(`U intervalu od ${m} do ${b} ima ${br} brojeva deljivih sa ${l}, a njihov zbir iznosi: ${br}.`)
