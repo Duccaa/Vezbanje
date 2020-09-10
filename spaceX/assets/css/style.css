@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: beige;
+    border-bottom: solid;
+}
+h1 {
+    text-align: center;
+    color: burlywood;
+    padding: 1em;
+}
+
+p {
+    padding-bottom: 0.5em;
+    color: burlywood;
+}
+
+/* #app {
+    background-color: burlywood;
+    height: 80em;
+} */
+#select-conatiner {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+select {
+    background-color: beige;
+}
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+img {
+    width: 300px;
+    height: auto;
+}

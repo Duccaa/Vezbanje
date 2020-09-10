@@ -18,9 +18,9 @@ for (m, v; m <= v; v--) {
 
 let p = 1;
 let d = 20;
-let string = ' '
+let string = ' ' 
 for(p, d; p <= d; p++) {
- string += p
+ string += (p + ' ')
 }
 console.log(string)
 
